@@ -1037,6 +1037,44 @@ ADVANCED (Weeks 9-12)
 
 ---
 
-> **Document Version**: 1.0  
-> **Last Updated**: March 20, 2026  
-> **Classification**: Learning & Development — AI Quality Engineering
+
+
+
+
+
+best blogs specifically valuable for an AI tester, ranked by relevance:
+
+Tier 1 — Must Follow (Directly About AI Evals & Testing)
+Blog	Author	Why It's Gold for Testers
+hamel.dev	Hamel Husain	The #1 blog for practical LLM evaluation. His "Your AI Product Needs Evals" and "Creating a LLM-as-a-Judge" posts are essential reading.
+eugeneyan.com	Eugene Yan (Amazon)	"Patterns for Building LLM-based Systems" is a landmark post. Covers evaluation, guardrails, and testing patterns from real production systems.
+huyenchip.com	Chip Huyen	Author of "AI Engineering." Writes about AI platform design, evaluation pipelines, and MLOps. Her "Building a Generative AI Platform" post maps the entire architecture.
+shreya-shankar.com	Shreya Shankar (UC Berkeley)	Research on LLM evaluation methodology. Her work on rethinking how we evaluate LLMs is cutting-edge.
+Tier 2 — Deep Technical Understanding
+Blog	Author	Best For
+lilianweng.github.io	Lilian Weng (OpenAI)	Deeply technical explanations of prompting, agents, RAG. Her "Prompt Engineering" and "LLM Powered Autonomous Agents" posts are reference-grade.
+simonwillison.net	Simon Willison	Daily coverage of LLM tools, prompt injection attacks, security vulnerabilities. Best for staying current on AI security issues.
+sebastianraschka.com	Sebastian Raschka	"Ahead of AI" newsletter. Explains new papers in plain language. Great for understanding evaluation research.
+jxnl.co	Jason Liu	Creator of Instructor library. Writes about structured output testing, LLM reliability, and practical AI engineering patterns.
+Tier 3 — Industry & Strategy Perspective
+Blog	Author / Org	Best For
+anthropic.com/research	Anthropic	Red-teaming methodology, safety research, evaluation approaches straight from a model provider
+openai.com/research	OpenAI	System card analysis, safety evaluations, model capabilities
+ai.meta.com/blog	Meta AI	Open-source model evaluations (Llama), benchmarking methodology
+blog.langchain.dev	LangChain team	RAG patterns, agent architectures, evaluation with LangSmith
+pinecone.io/learn	Pinecone	Vector search, RAG architecture, retrieval quality
+a16z.com/ai	Andreessen Horowitz	"Emerging Architectures for LLM Applications" — essential architecture overview
+Tier 4 — Testing Community Specific
+Blog	Best For
+ministryoftesting.com	AI testing track — practical QA perspective on AI systems
+promptingguide.ai (DAIR.AI)	Living document on prompt engineering — updated frequently
+owasp.org/llm	LLM security vulnerabilities, top 10 risks — updated annually
+My Top 5 "Read These First" Posts
+Hamel Husain — "Your AI Product Needs Evals"
+Eugene Yan — "Patterns for Building LLM-based Systems & Products"
+Chip Huyen — "Building a Generative AI Platform"
+Lilian Weng — "LLM Powered Autonomous Agents"
+Simon Willison — Search his blog for "prompt injection" (ongoing series)
+These 5 posts alone will give you more practical AI testing knowledge than most courses. Start with Hamel's eval post — it's the single best piece on why and how to evaluate AI products.
+
+Claude Opus 4.6 • 3x
