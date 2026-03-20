@@ -1,4 +1,4 @@
-# AI Testing & Evaluation — Complete Learning Resources
+`# AI Testing & Evaluation — Complete Learning Resources
 
 > **Created**: March 20, 2026  
 > **Purpose**: Curated learning path from Basic → Intermediate → Advanced  
@@ -1036,45 +1036,383 @@ ADVANCED (Weeks 9-12)
 | 4th | **"NLP with Transformers"** | Tunstall et al. |
 
 ---
+# AI Testing — Best Blogs, Channels & Community Resources
+
+> **Created**: March 20, 2026  
+> **Purpose**: Curated blogs, YouTube channels, podcasts, substacks, GitHub repos, and community resources for AI testers  
+> **Companion to**: AI-Testing-Learning-Resources.md
+
+---
+
+## Table of Contents
+
+- [Tier 1: Must-Read Blogs for AI Testers](#tier-1-must-read-blogs-for-ai-testers)
+- [Tier 2: Deep Technical AI Blogs](#tier-2-deep-technical-ai-blogs)
+- [Tier 3: AI Safety, Security & Red-Teaming Blogs](#tier-3-ai-safety-security--red-teaming-blogs)
+  - [Tier 3a — Industry & Strategy Perspective](#tier-3a--industry--strategy-perspective)
+  - [Tier 3b — Testing Community Specific](#tier-3b--testing-community-specific)
+- [Tier 4: Industry & Practitioner Blogs](#tier-4-industry--practitioner-blogs)
+- [Top 5 Must-Read Blog Posts](#top-5-must-read-blog-posts)
+- [YouTube Channels](#youtube-channels)
+- [Podcasts](#podcasts)
+- [Substacks & Newsletters](#substacks--newsletters)
+- [GitHub Repositories](#github-repositories)
+- [Twitter/X Accounts to Follow](#twitterx-accounts-to-follow)
+- [Company Engineering Blogs](#company-engineering-blogs)
+- [Additional Resources (Extended)](#additional-resources-extended)
+  - [Substacks / Deeper Niche Blogs](#substacks--deeper-niche-blogs)
+  - [GitHub Repositories (Study + Reference)](#github-repositories-study--reference)
+  - [Twitter/X Accounts to Follow (Extended)](#twitterx-accounts-to-follow-extended)
+  - [Hidden Gem — Company Engineering Blogs](#hidden-gem--company-engineering-blogs)
+- [Pure Niche Blogs — By Category](#pure-niche-blogs--by-category)
+
+---
+
+## Tier 1: Must-Read Blogs for AI Testers
+
+> These are the most directly relevant to AI testing and evaluation.
+
+| # | Blog | Author/Org | Why It's Essential | Key Posts |
+|---|---|---|---|---|
+| 1 | **hamel.dev** | Hamel Husain | The single best blog for AI evaluation. Hamel was at GitHub (Copilot), Airbnb, and is deeply focused on LLM evals. | "Your AI Product Needs Evals", "Creating a LLM-as-a-Judge That Drives Business Results" |
+| 2 | **eugeneyan.com** | Eugene Yan (Amazon) | LLM patterns, evaluation strategies, RAG testing. Incredibly well-structured posts. | "Patterns for Building LLM-based Systems & Products", "Evaluation Strategies for LLMs" |
+| 3 | **huyenchip.com** | Chip Huyen | AI Engineering, MLOps, evaluation, building AI platforms. Author of the best AI Engineering book. | "Building a Generative AI Platform", "Evaluation Metrics for LLMs" |
+| 4 | **simonwillison.net** | Simon Willison | LLM tools, prompt injection security, practical AI testing. Co-creator of Django. Posts daily. | Prompt injection series, LLM tool reviews, security analyses |
+| 5 | **lilianweng.github.io** | Lilian Weng (OpenAI) | Deep technical explainers on LLM concepts. Best for understanding what you're testing. | "Prompt Engineering", "LLM Powered Autonomous Agents", "Anti-hype LLM reading list" |
+| 6 | **huyenchip.com** | Chip Huyen | Author of "AI Engineering." Writes about AI platform design, evaluation pipelines, and MLOps. | "Building a Generative AI Platform" — maps the entire architecture |
+| 7 | **shreya-shankar.com** | Shreya Shankar (UC Berkeley) | Research on LLM evaluation methodology. How we evaluate LLMs is cutting-edge. | LLM evaluation research papers |
+
+---
+
+## Tier 2: Deep Technical AI Blogs
+
+> Great for understanding the systems you're testing at a deeper level.
+
+| # | Blog | Author/Org | Focus |
+|---|---|---|---|
+| 6 | **jayalammar.com** | Jay Alammar | Visual explanations of transformers, embeddings, LLMs — best for visual learners |
+| 7 | **sebastianraschka.com** | Sebastian Raschka | LLM research explained practically. Author of "Build an LLM from Scratch" |
+| 8 | **shreya-shankar.com** | Shreya Shankar (UC Berkeley) | LLM evaluation research, data quality for AI, rethinking eval approaches |
+| 9 | **cameronrwolfe.substack.com** | Cameron R. Wolfe | Deep dives into AI research papers — makes papers accessible |
+| 10 | **promptingguide.ai** | DAIR.AI | Comprehensive prompt engineering reference — useful for testing prompt robustness |
+| 11 | **jxnl.co** | Jason Liu | Creator of Instructor library. Writes about structured output testing, LLM reliability, and practical AI engineering patterns. |
+
+---
+
+## Tier 3: AI Safety, Security & Red-Teaming Blogs
+
+> Essential for safety testing, red-teaming, and compliance.
+
+| # | Blog | Author/Org | Focus |
+|---|---|---|---|
+| 11 | **OWASP LLM Top 10 Blog** | OWASP | Official updates on LLM security vulnerabilities and mitigations |
+| 12 | **Anthropic Research Blog** | Anthropic | AI safety research, constitutional AI, red-teaming methodologies |
+| 13 | **Microsoft Responsible AI Blog** | Microsoft | Enterprise AI safety, responsible AI tooling, evaluation frameworks |
+| 14 | **Google AI Blog — Safety Section** | Google DeepMind | AI safety research, evaluation benchmarks, alignment |
+| 15 | **NIST AI Blog** | NIST | AI risk management, regulatory frameworks, compliance guidance |
+| 16 | **Trail of Bits Blog** | Trail of Bits | Security auditing applied to AI systems, adversarial ML |
+| 17 | **Lakera AI Blog** | Lakera | Prompt injection defense, LLM security, gandalf challenges |
+
+### Tier 3a — Industry & Strategy Perspective
+
+| # | Blog | Author/Org | Best For |
+|---|---|---|---|
+| 18 | **anthropic.com/research** | Anthropic | Red-teaming methodology, safety research, evaluation approaches straight from a model provider |
+| 19 | **openai.com/research** | OpenAI | System card analysis, safety evaluations, model capabilities |
+| 20 | **ai.meta.com/blog** | Meta AI | Open-source model evaluations (Llama), benchmarking methodology |
+
+### Tier 3b — Testing Community Specific
+
+| # | Blog | Best For |
+|---|---|---|
+| 21 | **ministryoftesting.com** | AI testing track — practical QA perspective on AI systems |
+| 22 | **promptingguide.ai (DAIR.AI)** | Living document on prompt engineering — updated frequently |
+| 23 | **owasp.org/llm** | LLM security vulnerabilities, top 10 risks — updated annually |
+
+---
+
+## Tier 4: Industry & Practitioner Blogs
+
+> Real-world AI testing experiences and patterns.
+
+| # | Blog | Author/Org | Focus |
+|---|---|---|---|
+| 18 | **LangChain Blog** | LangChain | RAG patterns, agent architectures, evaluation with LangSmith |
+| 19 | **Pinecone Blog / Learning Center** | Pinecone | Vector search, RAG evaluation, retrieval optimization |
+| 20 | **Arize AI Blog** | Arize | LLM observability, evaluation metrics, monitoring in production |
+| 21 | **Confident AI Blog** | Confident AI (DeepEval) | LLM evaluation metrics, testing strategies, benchmark results |
+| 22 | **Braintrust Blog** | Braintrust | Practical evaluation, LLM-as-Judge tips, online eval patterns |
+| 23 | **Weights & Biases Blog** | W&B | Experiment tracking, LLM evaluation, ML monitoring |
+| 24 | **Ministry of Testing — AI Track** | Community | Testing practitioners sharing AI testing experiences |
+| 25 | **Patronus AI Blog** | Patronus AI | Hallucination detection, automated LLM evaluation research |
+
+---
+
+## Top 5 Must-Read Blog Posts
+
+> If you read nothing else, read these five.
+
+| # | Post | Author | Why Read It |
+|---|---|---|---|
+| 1 | **"Your AI Product Needs Evals"** | Hamel Husain | Foundational thinking on why and how to evaluate AI — start here |
+| 2 | **"Patterns for Building LLM-based Systems & Products"** | Eugene Yan | Maps the entire landscape of LLM patterns — tells you what to test |
+| 3 | **"Building a Generative AI Platform"** | Chip Huyen | End-to-end architecture — shows every component you need to evaluate |
+| 4 | **"Prompt Injection" series** | Simon Willison | Best explanation of the #1 AI security risk — essential for safety testing |
+| 5 | **"Prompt Engineering"** | Lilian Weng | Deep technical reference for understanding prompts — the foundation of all AI testing |
+
+---
+
+## YouTube Channels
+
+> Best video content for AI testing and evaluation.
+
+| Channel | Focus | Best For |
+|---|---|---|
+| **Andrej Karpathy** | LLM fundamentals from first principles | Understanding what you're testing — "Intro to LLMs" and "Let's build GPT" are essential |
+| **3Blue1Brown** | Visual math/neural network explanations | Understanding transformers and embeddings visually |
+| **DeepLearning.AI** | Short courses on RAG, agents, evals | Hands-on eval skills — all free short courses |
+| **Yannic Kilcher** | AI paper walkthroughs | Understanding evaluation papers and benchmarks |
+| **AI Engineer** | Conference talks from AI practitioners | Real-world AI engineering talks, evaluation sessions |
+| **Two Minute Papers** | Quick AI research summaries | Staying current on AI capabilities (know what to test) |
+| **Sam Witteveen** | LangChain, RAG, agent tutorials | Practical building + testing tutorials |
+| **Matt Williams** | Ollama, local LLM tutorials | Testing open-source models locally |
+| **James Briggs** | Pinecone, RAG, vector search tutorials | RAG implementation and testing |
+| **Dave Ebbelaar** | AI engineering tutorials | End-to-end AI application building |
+| **AI Jason** | Practical AI engineering tutorials, RAG implementations, agent builds | Building and testing RAG and agent systems |
+| **Fireship** | Quick overviews of AI concepts | Great for initial understanding of new AI topics |
+
+---
+
+## Podcasts
+
+> Listen during commute or walks — stay current without screen time.
+
+| Podcast | Host(s) | Focus | Frequency |
+|---|---|---|---|
+| **Latent Space** | Alessio Fanelli, swyx | AI engineering deep dives — interviews top AI engineers | Weekly |
+| **Practical AI** | Daniel Whitenack, Chris Benson | Making AI practical — good for testing perspective | Weekly |
+| **The TWIML AI Podcast** | Sam Charrington | AI/ML research and practice — academic + industry | Weekly |
+| **Gradient Dissent** | Weights & Biases team | ML practitioners sharing real experiences | Biweekly |
+| **AI Engineering Podcast** | Various | Focused on building AI applications | Weekly |
+| **Lex Fridman Podcast** | Lex Fridman | Long-form AI interviews with researchers and builders | Weekly |
+| **Last Week in AI** | Andrey Kurenkov | Weekly AI news roundup podcast | Weekly |
+| **Not So Standard Deviations** | Roger Peng, Hilary Parker | Data science practice discussions | Biweekly |
+| **High Agency** | Imbue | Deep dives into agent behavior, reasoning, evaluation | Weekly |
+
+---
+
+## Substacks & Newsletters
+
+> Curated reading delivered to your inbox.
+
+| Substack/Newsletter | Author | Focus | Frequency |
+|---|---|---|---|
+| **The Batch** | Andrew Ng / DeepLearning.AI | AI news digest — most accessible weekly AI summary | Weekly |
+| **Ahead of AI** | Sebastian Raschka | LLM research explained with practical implications | Biweekly |
+| **Interconnects** | Nathan Lambert | RLHF, alignment, LLM training — understand what you're evaluating | Weekly |
+| **The Gradient** | Stanford AI community | AI research summaries and interviews | Weekly |
+| **Import AI** | Jack Clark (Anthropic co-founder) | AI policy, safety, and capabilities | Weekly |
+| **AI Tidbits** | Sahar Mor | Curated AI engineering links and summaries | Weekly |
+| **Transformer Circuits Thread** | Anthropic | Mechanistic interpretability research | Irregular |
+| **By Howard** | Howard Huang | AI engineering practical insights | Weekly |
+| **The Sequence** | Jesus Rodriguez | Enterprise AI, MLOps updates | Weekly |
+| **Davis Summarizes Papers** | Davis Blalock | Quick paper summaries — great for staying current on eval research | Weekly |
+
+---
+
+## GitHub Repositories
+
+> Hands-on code and frameworks to practice with.
+
+| Repository | What It Is | Why It's Useful for Testers |
+|---|---|---|
+| **promptfoo/promptfoo** | LLM evaluation framework | #1 tool to learn for prompt/LLM testing |
+| **confident-ai/deepeval** | Python LLM evaluation | 14+ built-in metrics, Python-native testing |
+| **explodinggradients/ragas** | RAG evaluation framework | Standard for RAG quality measurement |
+| **Giskard-AI/giskard** | AI vulnerability scanner | Automated bias and vulnerability detection |
+| **trulens/trulens** | RAG Triad evaluation | Feedback functions for RAG systems |
+| **OWASP/www-project-top-10-for-llm-applications** | LLM security top 10 | Security test case reference |
+| **leondz/garak** | LLM vulnerability scanner | Automated red-teaming tool |
+| **microsoft/counterfit** | Adversarial ML testing | Enterprise adversarial testing framework |
+| **jxnl/instructor** | Structured LLM outputs | Testing structured output parsing |
+| **langchain-ai/langchain** | LLM application framework | Understanding what you're testing |
+| **run-llama/llama_index** | RAG framework | RAG evaluation module included |
+| **huggingface/evaluate** | ML evaluation library | Standard metrics implementation |
+| **EleutherAI/lm-evaluation-harness** | LLM benchmarking suite | Running standard benchmarks locally |
+| **openai/evals** | OpenAI evaluation framework | OpenAI's approach to LLM evaluation |
+
+---
+
+## Twitter/X Accounts to Follow
+
+> Real-time AI insights and discussions.
+
+| Account | Who | Why Follow |
+|---|---|---|
+| **@haaborui** | Hamel Husain | LLM evaluation insights, practical advice |
+| **@eugeneyan** | Eugene Yan | LLM patterns, evaluation strategies |
+| **@chiphuyen** | Chip Huyen | AI engineering, evaluation, MLOps |
+| **@simonw** | Simon Willison | Daily LLM updates, prompt injection research |
+| **@lilaborudi** | Lilian Weng | OpenAI research, technical AI content |
+| **@kaborodigital** | Sebastian Raschka | LLM research explained |
+| **@swaborudi** | Shreya Shankar | LLM evaluation research |
+| **@jaborudi** | Jason Wei | Google DeepMind, evaluation methodology |
+| **@AndrewYNg** | Andrew Ng | AI education, industry trends |
+| **@karpathy** | Andrej Karpathy | LLM fundamentals, AI education |
+| **@oaborudi** | OWASP LLM | LLM security updates |
+| **@laborudi** | Lakera AI | Prompt injection defense |
+
+---
+
+## Company Engineering Blogs
+
+> How top companies test and evaluate their AI systems.
+
+| Company Blog | Focus Area | Key AI Testing Content |
+|---|---|---|
+| **OpenAI Blog** | Model capabilities, safety research | Evaluation methodology, safety testing approaches |
+| **Anthropic Research** | AI safety, constitutional AI | Red-teaming, alignment evaluation, safety testing |
+| **Google AI Blog** | DeepMind research, evaluation | Benchmarks, responsible AI, evaluation frameworks |
+| **Microsoft AI Blog** | Azure AI, Responsible AI | Enterprise evaluation, safety tooling, compliance |
+| **Meta AI Blog** | Open-source models (Llama), research | Model evaluation, open benchmarks |
+| **Hugging Face Blog** | Open-source ML tooling | Evaluation libraries, model benchmarks, leaderboards |
+| **Netflix Tech Blog** | ML at scale | A/B testing, ML monitoring, production evaluation |
+| **Uber Engineering** | ML operations | ML testing in production, monitoring patterns |
+| **Airbnb Tech Blog** | ML systems | ML quality, experimentation, evaluation |
+| **Spotify Engineering** | ML/AI in production | Recommendation evaluation, ML testing |
+| **LinkedIn Engineering** | AI at scale | LLM deployment, quality evaluation, responsible AI |
+| **Stripe Blog** | AI for fintech | Financial AI safety, fraud detection evaluation |
+
+---
+
+## Reading Strategy
+
+```
+HOW TO USE THESE RESOURCES
+══════════════════════════
+
+DAILY (5-10 min):
+  → Scan Twitter/X for breaking AI news
+  → Check 1-2 blog RSS feeds
+
+WEEKLY (30-60 min):
+  → Read The Batch newsletter
+  → Read 1 blog post from Tier 1 blogs
+  → Listen to 1 podcast episode
+
+MONTHLY (2-3 hours):
+  → Deep read 2-3 posts from Tier 2/3 blogs
+  → Explore 1 new GitHub repository
+  → Watch 1 YouTube deep dive
+
+QUARTERLY:
+  → Review OWASP LLM Top 10 for updates
+  → Check for new evaluation tools/frameworks
+  → Read 1 company engineering blog case study
+```
+
+---
+
+## Additional Resources (Extended)
+
+> Additional blogs, repos, accounts, and engineering blogs collected from deeper research. Some entries overlap with sections above — kept for alternate descriptions and context.
+
+### Substacks / Deeper Niche Blogs
+
+| Blog | Author | Why It's Valuable |
+|---|---|---|
+| **The Pragmatic Engineer** | Gergely Orosz | Occasionally covers AI engineering from a senior engineering perspective — great for understanding how AI fits into real product teams |
+| **Interconnects** | Nathan Lambert (ex-HuggingFace) | Deep on RLHF, model alignment, evaluation methodology — understand how models are trained and why they fail |
+| **Cameron Wolfe's Newsletter** | Cameron Wolfe | Weekly deep dives explaining a single AI concept thoroughly — great for building foundational knowledge |
+| **AI Snake Oil** | Arvind Narayanan + Sayash Kapoor (Princeton) | Critical perspective on AI hype vs reality — sharpens your skeptical testing mindset |
+| **Weights & Biases Blog** | W&B team | Practical MLOps, experiment tracking, production monitoring |
+| **The Gradient** | Stanford AI students | Accessible academic perspectives on AI research |
+| **Probably Approximately Correct** | Various | Math and theory behind ML evaluation metrics |
+
+### GitHub Repositories (Study + Reference)
+
+| Repo | What It Contains |
+|---|---|
+| **promptfoo/promptfoo** | Study the test configs and examples directory — real YAML eval patterns |
+| **confident-ai/deepeval** | Study metric implementations to understand how evaluation works under the hood |
+| **explodinggradients/ragas** | RAG evaluation metric source code — understand faithfulness/relevance scoring |
+| **OWASP/www-project-top-10-for-large-language-model-applications** | The full OWASP LLM Top 10 with examples and mitigations |
+| **microsoft/counterfit** | Adversarial ML testing tool — study for security testing patterns |
+| **huggingface/evaluate** | HuggingFace evaluation library — tons of metric implementations |
+| **langchain-ai/langsmith-cookbook** | Real evaluation recipes and patterns |
+| **anthropics/evals** | Anthropic's eval methodology examples |
+
+### Twitter/X Accounts to Follow (Extended)
+
+| Account | Why |
+|---|---|
+| **@simonw** (Simon Willison) | Daily AI security + tooling insights |
+| **@chipro** (Chip Huyen) | AI engineering, evaluation, platform design |
+| **@eugeneyan** | LLM patterns, evaluation, production systems |
+| **@hamaborsa** (Hamel Husain) | LLM evals, practical engineering |
+| **@shanaborsa** (Shreya Shankar) | LLM evaluation research |
+| **@kaboroevich** (Sebastian Raschka) | LLM research explained |
+| **@jaboroevich** (Jason Liu) | Structured outputs, reliability patterns |
+| **@swaborson** (Swyx) | AI engineering, Latent Space podcast host |
+| **@laboroeng** (Lilian Weng) | Deep technical AI posts (infrequent but high quality) |
+
+### Hidden Gem — Company Engineering Blogs
+
+> These engineering blogs show how top companies actually test and monitor AI in production — invaluable for learning real-world patterns beyond theory.
+
+| Blog | Notable Posts |
+|---|---|
+| **Notion AI Blog** | How they evaluate their AI features at scale |
+| **Stripe Engineering** | ML in production for payments — safety-critical AI |
+| **Airbnb Engineering** | ML platform design and testing at scale |
+| **LinkedIn Engineering** | AI-assisted features, evaluation methodology |
+| **Spotify Engineering** | Recommendation system evaluation (transferable to LLM eval) |
+| **Uber Engineering** | ML platform, model monitoring, A/B testing at massive scale |
+
+---
+
+## Pure Niche Blogs — By Category
+
+### AI Evaluation & Testing Niche
+
+| Blog | Author | Niche Focus |
+|---|---|---|
+| **hamel.dev** | Hamel Husain | LLM evaluation methodology, LLM-as-Judge |
+| **shreya-shankar.com** | Shreya Shankar | LLM evaluation research |
+| **jxnl.co** | Jason Liu | Structured output testing, LLM reliability |
+| **Confident AI Blog** | DeepEval team | LLM evaluation metrics, testing strategies |
+| **Patronus AI Blog** | Patronus AI | Hallucination detection, automated LLM eval |
+| **Braintrust Blog** | Braintrust | LLM-as-Judge, online/offline eval patterns |
+| **AI Snake Oil** | Narayanan & Kapoor (Princeton) | Critical AI evaluation, hype vs reality |
+
+### AI Safety & Red-Teaming Niche
+
+| Blog | Author | Niche Focus |
+|---|---|---|
+| **Lakera AI Blog** | Lakera | Prompt injection defense, LLM security |
+| **Trail of Bits Blog** | Trail of Bits | Security auditing for AI systems |
+| **OWASP LLM Top 10 Blog** | OWASP | LLM vulnerability standards |
+| **NIST AI Blog** | NIST | AI risk management, compliance |
+
+### AI Observability & Monitoring Niche
+
+| Blog | Author | Niche Focus |
+|---|---|---|
+| **Arize AI Blog** | Arize | LLM observability, production monitoring |
+| **Weights & Biases Blog** | W&B | Experiment tracking, ML monitoring |
+
+### Testing Community Niche
+
+| Blog | Author | Niche Focus |
+|---|---|---|
+| **Ministry of Testing — AI Track** | Community | QA perspective on AI systems |
+| **promptingguide.ai** | DAIR.AI | Prompt engineering reference (testing robustness) |
+
+> **15 pure niche blogs total.** The rest of the blogs in this file (Karpathy, Lilian Weng, Chip Huyen, Eugene Yan, LangChain, etc.) are broader — they cover AI engineering/building with evaluation as one topic among many.
+
+---
 
 
 
 
 
-
-best blogs specifically valuable for an AI tester, ranked by relevance:
-
-Tier 1 — Must Follow (Directly About AI Evals & Testing)
-Blog	Author	Why It's Gold for Testers
-hamel.dev	Hamel Husain	The #1 blog for practical LLM evaluation. His "Your AI Product Needs Evals" and "Creating a LLM-as-a-Judge" posts are essential reading.
-eugeneyan.com	Eugene Yan (Amazon)	"Patterns for Building LLM-based Systems" is a landmark post. Covers evaluation, guardrails, and testing patterns from real production systems.
-huyenchip.com	Chip Huyen	Author of "AI Engineering." Writes about AI platform design, evaluation pipelines, and MLOps. Her "Building a Generative AI Platform" post maps the entire architecture.
-shreya-shankar.com	Shreya Shankar (UC Berkeley)	Research on LLM evaluation methodology. Her work on rethinking how we evaluate LLMs is cutting-edge.
-Tier 2 — Deep Technical Understanding
-Blog	Author	Best For
-lilianweng.github.io	Lilian Weng (OpenAI)	Deeply technical explanations of prompting, agents, RAG. Her "Prompt Engineering" and "LLM Powered Autonomous Agents" posts are reference-grade.
-simonwillison.net	Simon Willison	Daily coverage of LLM tools, prompt injection attacks, security vulnerabilities. Best for staying current on AI security issues.
-sebastianraschka.com	Sebastian Raschka	"Ahead of AI" newsletter. Explains new papers in plain language. Great for understanding evaluation research.
-jxnl.co	Jason Liu	Creator of Instructor library. Writes about structured output testing, LLM reliability, and practical AI engineering patterns.
-Tier 3 — Industry & Strategy Perspective
-Blog	Author / Org	Best For
-anthropic.com/research	Anthropic	Red-teaming methodology, safety research, evaluation approaches straight from a model provider
-openai.com/research	OpenAI	System card analysis, safety evaluations, model capabilities
-ai.meta.com/blog	Meta AI	Open-source model evaluations (Llama), benchmarking methodology
-blog.langchain.dev	LangChain team	RAG patterns, agent architectures, evaluation with LangSmith
-pinecone.io/learn	Pinecone	Vector search, RAG architecture, retrieval quality
-a16z.com/ai	Andreessen Horowitz	"Emerging Architectures for LLM Applications" — essential architecture overview
-Tier 4 — Testing Community Specific
-Blog	Best For
-ministryoftesting.com	AI testing track — practical QA perspective on AI systems
-promptingguide.ai (DAIR.AI)	Living document on prompt engineering — updated frequently
-owasp.org/llm	LLM security vulnerabilities, top 10 risks — updated annually
-My Top 5 "Read These First" Posts
-Hamel Husain — "Your AI Product Needs Evals"
-Eugene Yan — "Patterns for Building LLM-based Systems & Products"
-Chip Huyen — "Building a Generative AI Platform"
-Lilian Weng — "LLM Powered Autonomous Agents"
-Simon Willison — Search his blog for "prompt injection" (ongoing series)
-These 5 posts alone will give you more practical AI testing knowledge than most courses. Start with Hamel's eval post — it's the single best piece on why and how to evaluate AI products.
-
-Claude Opus 4.6 • 3x
